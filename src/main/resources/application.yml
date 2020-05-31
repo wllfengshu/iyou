@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /iyou
+spring:
+  application:
+    name: iyou
+logging:
+  level:
+    cc.wellcloud.cdr.dao: debug
