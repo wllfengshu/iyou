@@ -1,11 +1,9 @@
-.project
-.settings
 .classpath
-target
+.project
+.settings/
+target/
 
 *.iml
 .idea/
 
-# LeanCloud
-.avoscloud
-.leancloud
+.leancloud/
