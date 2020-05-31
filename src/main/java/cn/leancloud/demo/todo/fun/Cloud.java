@@ -1,4 +1,4 @@
-package cn.leancloud.demo.todo;
+package cn.leancloud.demo.todo.fun;
 
 import java.util.ArrayList;
 import java.util.List;

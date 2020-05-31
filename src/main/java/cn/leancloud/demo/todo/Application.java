@@ -1,6 +1,8 @@
 package cn.leancloud.demo.todo;
 
 
+import cn.leancloud.demo.todo.entity.Todo;
+import cn.leancloud.demo.todo.fun.Cloud;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.boot.SpringApplication;
@@ -13,10 +15,16 @@ import cn.leancloud.AVObject;
 import cn.leancloud.core.GeneralRequestSignature;
 
 import cn.leancloud.LeanEngine;
+import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.scheduling.annotation.EnableScheduling;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @ServletComponentScan(basePackages = {"cn.leancloud"})
 @EnableAutoConfiguration
 @SpringBootApplication
+@EnableSwagger2
+@EnableCaching
+@EnableScheduling
 public class Application {
 
   private static final Logger logger = LogManager.getLogger(Application.class);

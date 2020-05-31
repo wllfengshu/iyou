@@ -1,9 +1,10 @@
-package cn.leancloud.demo.todo;
+package cn.leancloud.demo.todo.rest;
 
 import cn.leancloud.AVQuery;
 import cn.leancloud.AVException;
 import cn.leancloud.AVObject;
 
+import cn.leancloud.demo.todo.entity.Todo;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

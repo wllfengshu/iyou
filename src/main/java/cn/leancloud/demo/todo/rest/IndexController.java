@@ -1,4 +1,4 @@
-package cn.leancloud.demo.todo;
+package cn.leancloud.demo.todo.rest;
 
 import java.util.Date;
 

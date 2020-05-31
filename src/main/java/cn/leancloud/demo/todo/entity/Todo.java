@@ -1,4 +1,4 @@
-package cn.leancloud.demo.todo;
+package cn.leancloud.demo.todo.entity;
 
 import java.util.HashMap;
 import java.util.Map;
